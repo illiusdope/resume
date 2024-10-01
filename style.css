@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  margin: 2em;
+  margin-top: 2.5em;
+  margin-bottom: -3em;
+  font-size: 16pt;
+}
+
+.contact {
+  float: right;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: darkgreen;
+  line-height: 0px;
+  margin-bottom: 2em;
+  font-size: 32pt;
+}
+
+@media print {
+  .new-page {
+    page-break-before: always;
+  }
+}
